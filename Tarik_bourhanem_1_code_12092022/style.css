@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+Nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 20px;
+}
+
+/* Header */
+
+#Logo {
+
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+.Header-Nav a {
+    flex-basis: 50%;
+    text-align: center;
+}
+.Header-Nav {
+    padding-bottom: 36px;
+}
+.Header-Nav a:hover {
+    border-top: 2px solid #0065FC;
+    border-bottom: none;
+    color: #0065FC;
+
+}
+
+/* Texte Header */
+
+.Text1 h1 {
+    padding-left: 2%;
+}
+
+.Text1 p {
+    padding-left: 2%;
+}
+
+.Text1 h1 {
+    margin-bottom: -7px;
+}
+
+.Text1 p {
+    margin-bottom: 1.5%;
+}
+
+/* Form  */
+
+.form {
+    display: flex;
+    padding-left: 2%;
+}
+
+.searchform {
+    padding: 1.2% 1.1%;
+    border-radius: 15px 0 0 15px;
+}
+
+.searchform {
+    background-color: #F2F2F2;
+    padding: 16px 20px;
+    border-radius: 16px 0 0 16px;
+    text-align: center;
+}
+
+.form input {
+    padding-right: 80px;
+}
+
+.form ::placeholder {
+    font-size: 16px;
+}
+
+.form button {
+    width: 130px;
+    background-color: #0065FC;
+    padding: 0;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    font-weight: 600;
+    color: #f2f2f2;
+    font-size: 17.6px;
+    flex-shrink: 0;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.form button:hover {
+    opacity: 1;
+}
+
+h2 {
+    padding-left: 32px;
+}
+
+
+.icon_desktop {
+    display: block !important;
+}
+
+.icon_mobile {
+    display: none !important;
+}
+
+/* Filtres */
+
+.Listefiltre {
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 27px;
+}
+
+.Listefiltre h1 {
+
+    font-size: larger;
+}
+
+.Filtre .fa-solid {
+    color: rgb(0, 68, 255);
+    background-color: #DEEBFF;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+* .Filtre span {
+    font-weight: bold;
+    padding: 16px;
+    align-items: center;
+}
+
+.Filtre {
+    border: 1px solid #F2F2F2;
+    border-radius: 32px;
+}
+
+.Filtre:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+
+
+
+/* Message Info */
+
+.Messageinfo {
+    display: flex;
+    gap: 07px;
+    align-items: center;
+    margin-left: 02%;
+    margin-top: 16px;
+}
+
+.Messageinfo .fa-solid {
+
+    color: #0065FC;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+/* Liste Appartement */
+
+.ListeAppartement {
+    gap: 36px;
+    display: flex;
+    padding-left: 32px;
+}
+
+.ListeAppartement>div {
+
+
+    background-color: #F2F2F2;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.ListeAppartement .Populaire div:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+
+}
+
+.Appartementcarte:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.Appartementcarte h3,
+.Appartementcarte p {
+    margin: 3px;
+    margin-top: 2px;
+    align-content: center;
+    flex: 1;
+
+}
+
+
+
+.AppartementVille-liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 32px;
+}
+
+
+.Ville {
+    flex-basis: 66%;
+    display: flex;
+    flex: 2;
+    flex-direction: column
+}
+
+.Populaire {
+    flex-basis: 33%;
+
+}
+
+.Populaire h1 .fa-solid {
+    margin-left: 40%
+}
+
+
+
+.ListeAppartement .Populaire div {
+
+    margin-bottom: 16px;
+    display: flex;
+}
+
+
+
+
+/* Appartement Card */
+
+.Blue {
+    color: #0065FC;
+}
+
+.Grey {
+    color: #A9A9A9;
+}
+
+.Appartementcarte {
+
+    background-color: white;
+    padding: 6px;
+    border-top-left-radius: 23.25px;
+    border-top-right-radius: 23.25px;
+    border-bottom-right-radius: 23.25px;
+    border-bottom-left-radius: 23.25px;
+    box-shadow: 1px 0px 14px #0000002e;
+
+
+}
+
+.Appartementcarte img {
+    border-radius: 16px 16px 0px 0px;
+    height: 140px;
+    width: 330px;
+    object-fit: cover;
+}
+
+.Populaire img {
+    border-radius: 16px 0px 0px 16px;
+    height: 119px;
+    width: 130px;
+    object-fit: cover;
+}
+
+
+
+
+.Description {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.Etoiles {
+    margin-bottom: -29px;
+}
+
+
+/* Activité à Marseille */
+
+.activite_containter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+
+.long_img {
+    height: 500px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+
+.simple_img {
+    height: 228px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+
+.simple_img_11 {
+    height: 255px;
+    width: 410px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.marging_top_activite_box {
+    margin-top: 56px !important;
+}
+
+.simple_img_12 {
+    height: 132px;
+    width: 410px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+
+.simple_img_21 {
+    height: 196px;
+    width: 410px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+
+
+.simple_img_22 {
+    height: 189px;
+    width: 410px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.activite_box:hover {
+    transform: scale(1.02);
+}
+
+.article_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: space-between;
+
+}
+
+.activite_box {
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+/* 
+.article_container article {
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    border-radius: 25px;
+}
+ */
+
+.article_box_2 article {
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    padding-bottom: 3px;
+    border-radius: 25px;
+}
+
+
+.article_box_1 article {
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    padding-bottom: 3px;
+    border-radius: 25px;
+}
+
+
+.flex_1 {
+    flex: 1;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #F2F2F2;
+    padding: 50px;
+    display: flex;
+    margin-top: 50px;
+    align-content: space-between;
+    width: 100%;
+}
+
+.Contenu {
+    flex: 1;
+    flex-wrap: wrap;
+
+}
+
+.Contenu ul {
+    list-style-type: none;
+    padding-left: 32px;
+
+}
+
+
+/* Tablette */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .Filtre {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .form Button {
+        height: auto;
+    }
+
+
+
+
+
+    .Listefiltre {
+        gap: 30px;
+        justify-content: center;
+    }
+
+
+    .ListeAppartement {
+        margin-top: 40px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Ville {
+        order: 1;
+        width: 100%;
+    }
+
+    .Activite {
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    footer {
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+
+}
+
+/* Mobile */
+
+@media only screen and (Max-Width: 768px) {
+
+    .form button {
+        width: 50px;
+    }
+
+    .icon_desktop {
+        display: none !important;
+    }
+
+    .icon_mobile {
+        display: block !important;
+    }
+
+    .Header-Nav {
+        flex-basis: 100%;
+        display: flex;
+        width: 50%;
+    }
+
+    .Populaire {
+        flex-direction: row;
+    }
+
+    .form {
+        justify-content: center;
+    }
+
+    .Text1 {
+        text-align: center;
+    }
+
+    .form Button {
+        height: auto;
+    }
+
+
+
+    .Header-Nav a:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    footer {
+        padding: 0 0px 40px 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Listefiltre {
+        padding-left: 32px;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 27px;
+        display: flow-root;
+    }
+
+    .Filtre {
+        margin: 15px;
+    }
+
+    .ListeAppartement {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Ville {
+        order: 1;
+        width: 100%;
+    }
+
+    .simple_img {
+        height: auto;
+    }
+
+
+}
